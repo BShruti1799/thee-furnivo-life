@@ -1,1 +1,52 @@
-@import "tailwindcss";
+/* Default (Light) Theme */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2980b9;
+    --background-color: #ffffff;
+    --text-color: #333333;
+    --font-family: "Poppins", sans-serif;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --background-color: #1e1e1e;
+    --text-color: #ffffff;
+    --font-family: "Roboto Mono", monospace;
+  }
+  
+  /* Blue Theme */
+  .blue-theme {
+    --primary-color: #007bff;
+    --secondary-color: #0056b3;
+    --background-color: #e3f2fd;
+    --text-color: #1c1c1c;
+    --font-family: "Caveat", cursive;
+  }
+  
+  /* Green Theme */
+  .green-theme {
+    --primary-color: #28a745;
+    --secondary-color: #1e7e34;
+    --background-color: #e9f7ef;
+    --text-color: #155724;
+    --font-family: "Merriweather", serif;
+  }
+  
+  /* Red Theme */
+  .red-theme {
+    --primary-color: #dc3545;
+    --secondary-color: #c82333;
+    --background-color: #f8d7da;
+    --text-color: #721c24;
+    --font-family: "Press Start 2P", cursive;
+  }
+  
+  /* Apply styles */
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-family);
+  }
+  
