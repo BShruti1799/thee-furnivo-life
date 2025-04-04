@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   standalone: false
 })
 export class TopNavComponent {
+  isMenuOpen = false;
 
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }
