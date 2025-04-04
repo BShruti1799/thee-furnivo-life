@@ -1,0 +1,59 @@
+:host {
+    display: block;
+  }
+  
+  /* Dark gold-slate gradient */
+  .gradient-bg {
+    background: linear-gradient(135deg, var(--theme-black), var(--theme-slate), var(--theme-gold));
+    color: var(--theme-cream);
+  }
+  
+  /* Animations */
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .fade-down {
+    animation: fade-down 1s ease-out both;
+  }
+  .fade-in {
+    animation: fade-in 1.2s ease both;
+  }
+  .fade-up {
+    animation: fade-up 1s ease both;
+  }
+  .delay-200 {
+    animation-delay: 0.2s;
+  }
+  .delay-500 {
+    animation-delay: 0.5s;
+  }
+  .delay-700 {
+    animation-delay: 0.7s;
+  }
+  
